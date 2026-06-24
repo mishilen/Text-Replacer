@@ -1,13 +1,15 @@
 # Replacer
+
 A cli tool for replacing strings in files or texts. It should work on Windows, Mac, and Linux.
 It replaces any text with the one specified. Works on txt and csv files, as well as straight in the command promt. 
----
+
 # Usage
+
  There are two usage for this tool:
  1. It replaces text in file by using the `-f` flag and specifying the file.
 
  2. It replaces and prints the text directly using the `-t` flag.
----
+
 # Installation
 
 1. Clone this github directory or download it onto your machine either by downloading zip file or using the command: 
