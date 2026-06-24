@@ -10,9 +10,15 @@ It replaces any text with the one specified. Works on txt and csv files, as well
 ---
 # Installation
 
-1. Clone this github directory or download it onto your machine.
-2. Go into the folder for this directory.
-3. Use the command
+1. Clone this github directory or download it onto your machine either by downloading zip file or using the command: 
+```
+git clone https://github.com/mishilen/Text-Replacer
+```
+2. Go into the folder for this directory. You can use the command:
+```
+cd Text-Replacer
+```
+3. In that directory, use the command
 ```pip install -e .```
 
 4. Use the command `replacer -help` to get more information on the usage.
