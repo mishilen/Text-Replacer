@@ -40,14 +40,14 @@ def clean_text(text: str, string: str, new_string: str):
 
 def to_string() -> str:
     return f'''
-    Usage: python main.py [OPTIONS] [COMMAND] [OPTIONS] [COMMAND]
+    Usage: python replacer [OPTIONS] [COMMAND] [OPTIONS] [COMMAND]
 
     Options:
         -f          replace text in a file. (Supported format - txt, csv)
         -t          replace text directly in terminal
         -r          replace one string with another
 
-    Example usage: python main.py -t "This is so cool!!" -r "This" "Meow"
+    Example usage: replacer -t "This is so cool!!" -r "This" "Meow"
     '''
 
 
